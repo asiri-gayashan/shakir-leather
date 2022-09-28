@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.nav_bar{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.nav_Font{
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: black;
+}
+
+.nav_Font:hover{
+    color: rgb(90, 90, 90);
+}
+
+
+.btn_nav{
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 400;
+    border-radius: 0px;
+    border-color: #1f1f1f;
+}
+
+.btn_nav:hover{
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
+
+.btn_nav_SignIN{
+    background-color: #ffffff;
+    color: #1f1f1f;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.btn_nav_SignIN:hover{
+    border-color: #1f1f1f;
+
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+
+/* ----------------------- Hero Section ------------------------ */
+
+.body{
+    padding-left: 7%;
+    padding-right: 7%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.l_heading{
+    font-size: 75px;
+    color: rgb(31,31,31);
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.l_paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555657;
+}
+
+.l_btn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    border-color: rgb(31, 31, 31);
+    margin-right: 8px;
+}
+
+.l_ord_now, .l_explr_now:hover{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.l_ord_now:hover,  .l_explr_now{
+    background-color: white;
+    color: #1f1f1f;
+}
+
+.h_photo{
+    background-color: #fac252;
+}
+
+.l_subheading{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.l_heroText{
+    margin-top: 100px;
+}
+
+/* ----------------------- Hero Section ------------------------ */
+
+/* <!-- <---------------------------------- Portfolio Section  ----------------------------------------> */
+
+.l_box{
+    padding: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.bx_title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bx_Para{
+    font-size: 15px;
+    font-weight: 600;  
+}
+
+.bx_blck{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.bx_Yelw{
+    background-color: #fac252;
+    color: #1f1f1f;
+}
+
+/* <!-- <---------------------------------- Portfolio Section  ----------------------------------------> */
+
+/* <!-- <---------------------------------- Product Information  ----------------------------------------> */
+
+ .pr_heading{
+    font-size: 50px;
+    color: rgb(31,31,31);
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.L_More{
+    text-decoration: none;
+    color: #fac252;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.L_More:hover{
+    color: #1f1f1f;
+}
+
+/* <!-- <---------------------------------- Product Information  ----------------------------------------> */
+
+/* <!-- <---------------------------------- Our Advantages  ----------------------------------------> */
+
+.L_advHeading{
+    font-size: 40px;
+    color: rgb(31,31,31);
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.ad_Para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* font-weight: 500; */
+}
+
+.ad_blk_bx{
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.ad_ylw_bx{
+    background-color: #fac252;
+}
+
+.ex_text{
+    padding-top: 170px;
+}
+
+.tr_text{
+    margin-top: 70px;
+}
+
+/* <!-- <---------------------------------- Our Advantages  ----------------------------------------> */
+
+.sty_btn{
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 14px;
+        background-color: #fac252;
+        border-color: #fac252;
+        margin-right: 8px;
+}
+
+.sty_btn:hover{
+    background-color: #1f1f1f;
+    border-color: #1f1f1f;
+}
+
+
+/*  <!-- <---------------------------------- Products  ----------------------------------------> */
+
+.pr_Card{
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.crd_Ratings{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.add_cart{
+    background-color: #1f1f1f;
+    font-size: 14px;
+}
+
+.add_cart:hover{
+    background-color: hsla(0, 1%, 16%, 0.973);
+
+}
+
+.bi-star-fill{
+    color: #fac252;
+}
+
+/*  <!-- <---------------------------------- Products  ----------------------------------------> */
+
+/* <!-- <---------------------------------- Tesitmonials  ----------------------------------------> */
+
+.tst_img{
+   width: 100px;
+   border: none;
+   border-radius: 50px;
+}
+
+.tst_Titel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.lh-sm{
+    margin-top: -2px;
+}
+
+/* <!-- <---------------------------------- Tesitmonials  ----------------------------------------> */
+
+/* <!-- <---------------------------------- Newsletter  ----------------------------------------> */
+
+.nw_body{
+    padding: 50px;
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    border-radius: 16px;
+}
+
+.nw_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.nw_input{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3e3e3e;
+    color: white;
+
+}
+
+ 
+
+.nw_arrow{
+    font-size: 40px; 
+    margin-top: 30px;
+margin-left: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 20px;
+    background-color: #fac252;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+
+}
+
+/* <!-- <---------------------------------- Newsletter  ----------------------------------------> */
+
+/* <!-- <---------------------------------- Footer  ----------------------------------------> */
+
+.l_footer{
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: white;
+    background-color: #1f1f1f;
+}
+
+.ftr_links{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(158, 155, 155);
+    line-height: 32px;
+}
+
+.ftr_links:hover{
+    color: #fac252;
+}
+
+.copyright{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.ftr_button{
+    border-color: white;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.ftr_button:hover{
+    background-color: #fac252;
+    border-color: #fac252;
+    color: #1f1f1f;
+}
+
+
+
+/* <!-- <---------------------------------- Footer  ----------------------------------------> */
+
+
